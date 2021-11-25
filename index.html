@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Calculator</h1>
+
+        <form>
+            <input type="number" id="numberOfBitc" placeholder="Sisesta BTC arv">
+            <label for="numberOfBitc">Kui palju BTC on?</label>
+        </form> 
+        <form>
+            <select id="selectCurrency">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>GBP</option>
+              </select>
+        </form>
+
+        <button class="getBitc">Kalkuleeri</button>
+
+        <hr>
+
+        <p class="amount"></p>
+
+        
+
+
+    </div>
+    
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
